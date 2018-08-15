@@ -1,0 +1,4 @@
+*.json
+node_modules/
+fe/node_modules/
+fe/dist
