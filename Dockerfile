@@ -2,6 +2,7 @@ FROM node:8.11.3
 
 ADD package.json /opt
 ADD package-lock.json /opt
+ADD app.js /opt
 ADD bin/ /opt/bin
 ADD data/ /opt/data
 ADD fe/ /opt/fe
