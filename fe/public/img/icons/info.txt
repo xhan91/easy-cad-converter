@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+
+font name: LinguisticsPro-Bold
+font link: https://github.com/StefanPeev/Linguistics-Pro
+font author: Local Fonts
+font author site: https://localfonts.eu/
+
+icon designer: Jens Windolf
+icon designer link: /jenswindolf
+        
+{"bg":"#F56B11","icon":"#FFFFFF","font":"#ffffff"}
+      
