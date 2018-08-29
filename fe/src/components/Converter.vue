@@ -4,7 +4,7 @@
       <v-layout align-space-around justify-space-around fill-height column>
         <v-layout>
           <v-flex offset-xs2 xs3 mt-2>
-            <v-text-field v-model="taxRate" label="Tax Rate (%)"></v-text-field>
+            <v-text-field type="number" v-model="taxRate" label="Tax Rate (%)"></v-text-field>
           </v-flex>
           <v-flex offset-xs2 xs3 mt-2>
             <v-autocomplete
@@ -17,7 +17,8 @@
         </v-layout>
         <v-layout>
           <v-flex offset-xs2 xs8>
-            <v-text-field v-model="amount" :label="`Amount in ${base} w/o tax`"></v-text-field>
+            <v-text-field type="number" v-model="amount" :label="`Amount in ${base} w/o tax`">
+            </v-text-field>
           </v-flex>
         </v-layout>
         <v-layout>
